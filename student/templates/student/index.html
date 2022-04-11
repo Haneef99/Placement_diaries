@@ -1,0 +1,30 @@
+{% extends 'student/base_template.html' %}
+
+{% block title %}
+    <title>Home | user portal</title>
+
+{% endblock %}
+
+{% block body %}
+    <div class="text-center" style="margin-top: 250px;">    
+        <h1 style="color: #05386B;">Share Your Placement Experiences!!</h1>
+    </div>
+    <div style="display: flex; justify-content: center; margin-top: 60px; margin-bottom: 300px;">
+        <a href="{% url 'student:posts' 1%}" class="btn-violet" style="text-decoration: none;">Explore </a>
+    </div>
+    <div class="line container"></div>
+    <div class="container my-5" style="
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    ">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/wODg1AKuRc8" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <div style="width: 400px;">
+            <div class="card" style="padding: 15px;">
+                <h2 style="color:#05386B;">Thank you for using this website. Wishing you all the best in everything you do <3. </h2>
+            </div>
+        </div>
+    </div>
+{% endblock %}

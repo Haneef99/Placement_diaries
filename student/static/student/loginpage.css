@@ -1,0 +1,5 @@
+body{
+    height: 86vh;
+    background: url('./pencils.jpg');
+    background-size:contain;
+}
